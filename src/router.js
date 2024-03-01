@@ -17,9 +17,7 @@ const router = createBrowserRouter([
                 path: 'albums', element: <AlbumsPage/>
             },
             {
-                path: 'comments', element: <CommentsPage/>, children:[
-
-                ]
+                path: 'comments', element: <CommentsPage/>
             },
             {
                 path: 'post', element: <PostPage/>
